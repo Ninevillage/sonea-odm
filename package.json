@@ -1,0 +1,50 @@
+{
+  "name": "sonea-odm",
+  "version": "0.0.1",
+  "description": "odm for sonea",
+  "main": "lib/sonea-odm.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Naxmeify@github.com/Ninevillage/sonea-odm.git"
+  },
+  "keywords": [
+    "odm",
+    "utilities",
+    "sonea"
+  ],
+  "author": {
+    "name": "Ninevillage",
+    "email": "info@ninevillage.com",
+    "url": "https://www.ninevillage.com"
+  },
+  "contributors": [
+    {
+      "name": "MRW Neundorf",
+      "email": "mohammed.neundorf@ninevillage.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ninevillage/sonea-odm/issues"
+  },
+  "homepage": "https://github.com/Ninevillage/sonea-odm",
+  "engines": {
+    "node": ">0.12.7",
+    "npm": ">=2.11"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "debug": "^2.2.0",
+    "lodash": "^3.10.1"
+  }
+}
